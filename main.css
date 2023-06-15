@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+body{
+  background-color: #434346;
+}
+.calculator {
+    padding: 10px;
+    border-radius: 1em;
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    background-color: #191b28;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.display-box {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 15px;
+    background-color: #dcdbe1;
+    border: solid black 0.5px;
+    color: black;
+    border-radius: 5px;
+    width: 100%;
+    height: 65%;
+}
+
+#btn {
+    background-color: #e92222;
+}
+
+input[type=button] {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #047abe;
+    color: white;
+    border: solid black 0.5px;
+    width: 100%;
+    border-radius: 5px;
+    height: 70%;
+    outline: none;
+}
+
+input:active[type=button] {
+    background: #e5e5e5;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+}
+
+
+/* body{
+  background-color: #a6a5d1;
+}
+.container{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #f2f2f2;
+  -webkit-box-shadow: 1px 1px 4px 0px rgba(176,176,176,1);
+     -moz-box-shadow: 1px 1px 4px 0px rgba(176,176,176,1);
+          box-shadow: 1px 1px 4px 0px rgba(176,176,176,1);
+  background-color: #fff;
+  height: 450px;
+  background-color: #F8F8F8;
+}
+.header{
+  background-color: #164791;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+} */
+
+/* Chrome, Safari, Edge, Opera */
+/* input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+} */
+
+/* firefox doesn't support above css properly */
+
+/* .result{
+  font-size: 24px;
+  margin: 5px;
+  padding: 24px 5px;
+  font-weight: 700;
+  text-align: right;
+  width: 96%;
+  border-color: #949393;
+  background-color: #F8F8F8;
+}
+.first-row,
+.second-row,
+.third-row,
+.fourth-row,
+.conflict
+{
+  display: inline-block;
+  width: 100%;
+}
+.btn{
+ padding: 15px;
+ font-weight: bold;
+ font-size: 16px;
+ border: none;
+ border-radius: 3px;
+ background-color: #526bd8;
+ float: left;
+ width: 24%;
+ margin: 0 2px; */
+ /*border: 1px solid #000;*/
+/* }
+.conflict .left,
+.conflict .right{
+  float: left;
+  position: relative;
+}
+.left{
+  width: 74%;
+}
+.right{
+  width: 24%;
+}
+.big{
+  padding: 15px;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  border-radius: 3px;
+  background-color: #526bd8;
+  float: left;
+  width: 65%;
+  margin: 0 2px;
+}
+.small{
+  padding: 15px;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  border-radius: 3px;
+  background-color: #526bd8;
+  float: left;
+  width: 33%;
+  margin: 0 2px;
+}
+.plus{
+  height: 100px;
+  width: 98%;
+}
+.green{
+  background-color: #248b2a;
+}
+.red{
+  background-color: #c00a0a
+}
+.grey{
+  background-color: #949393;
+}
+.white-text{
+  color: #fff;
+}
+.top-margin{
+  margin-top: 4px;
+} */
